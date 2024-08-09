@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int main(){
 
    int type;
    scanf("%d",&type);
@@ -10,7 +10,7 @@ break;
 case 2:
 printf("早上好");
 break;
-rase 3:
+case 3:
 printf("晚上好");
 break;
 default:
@@ -18,3 +18,4 @@ printf("你在说啥?");
 break;
 }
 return 0;
+}
